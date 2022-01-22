@@ -19,6 +19,7 @@ function exCast(event) {
         cast.style.opacity = "1";
     } else {
         cast.style.opacity = "0";
+        alert("入力が間違っています")
     }
 }
   
