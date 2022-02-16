@@ -1,0 +1,18 @@
+#other {
+    text-align: center;
+}
+
+#other .set{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+#other .set img {
+    object-fit: cover;
+    width: auto;
+    max-height: 60vh;
+    max-width: 100%;
+    margin: 8px;
+}

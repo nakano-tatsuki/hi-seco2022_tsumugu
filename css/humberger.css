@@ -5,6 +5,7 @@
 .openbtn1 {
     /* opacity: 0; */
     display: none;
+    position: fixed;
 }
 
 header nav {
@@ -43,7 +44,7 @@ header nav {
 .openbtn1{
     display: block;
 
-    position: absolute;/*ボタン内側の基点となるためrelativeを指定*/
+    position: fixed;/*ボタン内側の基点となるためrelativeを指定*/
       right: 32px;
       top: 32px;
     /* background:#57a2c7; */
